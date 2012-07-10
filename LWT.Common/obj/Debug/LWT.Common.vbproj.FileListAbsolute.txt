@@ -1,0 +1,10 @@
+D:\vsproject\WebLWT\LWT.Common\bin\Debug\LWT.Common.dll
+D:\vsproject\WebLWT\LWT.Common\bin\Debug\LWT.Common.pdb
+D:\vsproject\WebLWT\LWT.Common\bin\Debug\LWT.Common.xml
+D:\vsproject\WebLWT\LWT.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\vsproject\WebLWT\LWT.Common\obj\Debug\LWT.Common.Resources.resources
+D:\vsproject\WebLWT\LWT.Common\obj\Debug\ResGen.read.1.tlog
+D:\vsproject\WebLWT\LWT.Common\obj\Debug\ResGen.write.1.tlog
+D:\vsproject\WebLWT\LWT.Common\obj\Debug\LWT.Common.dll
+D:\vsproject\WebLWT\LWT.Common\obj\Debug\LWT.Common.xml
+D:\vsproject\WebLWT\LWT.Common\obj\Debug\LWT.Common.pdb

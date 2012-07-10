@@ -1,0 +1,170 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LWT.Data
+</name>
+</assembly>
+<members>
+<member name="P:LWT.Data.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:LWT.Data.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:LWT.Data.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:LWT.Data.Product.Name">
+	<summary>
+ 设计名称
+ </summary>
+</member><member name="P:LWT.Data.Product.viewcount">
+	<summary>
+ 浏览次数
+ </summary>
+</member><member name="P:LWT.Data.Product.ImgUrl">
+	<summary>
+ 图片地址
+ </summary>
+</member><member name="P:LWT.Data.Product.Description">
+	<summary>
+ 设计描述
+ </summary>
+</member><member name="P:LWT.Data.Product.CreateDate">
+	<summary>
+	</summary>
+</member><member name="P:LWT.Data.Product.ModifyDate">
+	<summary>
+	</summary>
+</member><member name="P:LWT.Data.Product.type">
+	<summary>
+ 所属类别
+ </summary>
+</member><member name="P:LWT.Data.Product.author">
+	<summary>
+ 设计作者
+ </summary>
+</member><member name="P:LWT.Data.Product.designdate">
+	<summary>
+ 设计日期
+ </summary>
+</member><member name="P:LWT.Data.Design.Name">
+	<summary>
+ 设计名称
+ </summary>
+</member><member name="P:LWT.Data.Design.viewcount">
+	<summary>
+ 浏览次数
+ </summary>
+</member><member name="P:LWT.Data.Design.ImgUrl">
+	<summary>
+ 图片地址
+ </summary>
+</member><member name="P:LWT.Data.Design.Description">
+	<summary>
+ 设计描述
+ </summary>
+</member><member name="P:LWT.Data.Design.CreateDate">
+	<summary>
+	</summary>
+</member><member name="P:LWT.Data.Design.ModifyDate">
+	<summary>
+	</summary>
+</member><member name="P:LWT.Data.Design.type">
+	<summary>
+ 所属类别
+ </summary>
+</member><member name="P:LWT.Data.Design.author">
+	<summary>
+ 设计作者
+ </summary>
+</member><member name="P:LWT.Data.Design.designdate">
+	<summary>
+ 设计日期
+ </summary>
+</member><member name="P:LWT.Data.DesignType.id">
+	<summary>
+	</summary>
+</member><member name="P:LWT.Data.DesignType.typename">
+	<summary>
+	</summary>
+</member><member name="P:LWT.Data.DesignType.fatherid">
+	<summary>
+	</summary>
+</member><member name="P:LWT.Data.ProductType.id">
+	<summary>
+	</summary>
+</member><member name="P:LWT.Data.ProductType.typename">
+	<summary>
+	</summary>
+</member><member name="P:LWT.Data.ProductType.fatherid">
+	<summary>
+	</summary>
+</member><member name="P:LWT.Data.Jobs.jobsname">
+	<summary>
+ 职位名称
+ </summary>
+</member><member name="P:LWT.Data.Jobs.description">
+	<summary>
+ 职位描述
+ </summary>
+</member><member name="P:LWT.Data.Jobs.viewCount">
+	<summary>
+ 浏览次数
+ </summary>
+</member><member name="P:LWT.Data.Jobs.CreateDate">
+	<summary>
+ 创建日期
+ </summary>
+</member><member name="P:LWT.Data.Jobs.ModifyDate">
+	<summary>
+ 修改日期
+ </summary>
+</member><member name="P:LWT.Data.Jobs.istop">
+	<summary>
+ 是否置顶
+ </summary>
+</member><member name="P:LWT.Data.Jobs.isLongEffective">
+	<summary>
+ 是否长期有效
+ </summary>
+</member><member name="P:LWT.Data.Jobs.Age">
+	<summary>
+ 年龄
+ </summary>
+</member><member name="P:LWT.Data.Jobs.salary">
+	<summary>
+ 薪酬待遇
+ </summary>
+</member><member name="P:LWT.Data.Jobs.endDate">
+	<summary>
+ 结束日期
+ </summary>
+</member><member name="P:LWT.Data.Jobs.experience">
+	<summary>
+ 工作经验
+ </summary>
+</member><member name="P:LWT.Data.Jobs.degree">
+	<summary>
+ 学历
+ </summary>
+</member><member name="P:LWT.Data.Jobs.people">
+	<summary>
+ 招聘人数
+ </summary>
+</member><member name="P:LWT.Data.Jobs.contact">
+	<summary>
+ 联系人
+ </summary>
+</member><member name="P:LWT.Data.Jobs.phone">
+	<summary>
+ 联系电话
+ </summary>
+</member>
+</members>
+</doc>

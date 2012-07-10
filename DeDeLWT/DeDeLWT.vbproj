@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{8B3AEBAC-8FFB-4192-9E8F-07E3586DA2B9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DeDeLWT</RootNamespace>
+    <AssemblyName>DeDeLWT</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>DeDeLWT.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>DeDeLWT.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\jmFullWall.css" />
+    <Content Include="css\dede.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\8627.jpg" />
+    <Content Include="images\about.png" />
+    <Content Include="images\animate\about-humanity.png" />
+    <Content Include="images\animate\about-technology.png" />
+    <Content Include="images\animate\about-title.png" />
+    <Content Include="images\animate\blog-think.png" />
+    <Content Include="images\animate\blog-title.png" />
+    <Content Include="images\animate\blog-write.png" />
+    <Content Include="images\animate\circle-creativity.png" />
+    <Content Include="images\animate\circle-dark.png" />
+    <Content Include="images\animate\circle-engineering.png" />
+    <Content Include="images\animate\circle-light.png" />
+    <Content Include="images\animate\circle-marketing.png" />
+    <Content Include="images\animate\circle-professional.png" />
+    <Content Include="images\animate\design-title.png" />
+    <Content Include="images\animate\honour-title.png" />
+    <Content Include="images\animate\jobs-art.png" />
+    <Content Include="images\animate\jobs-code.png" />
+    <Content Include="images\animate\jobs-title.png" />
+    <Content Include="images\animate\people-line.png" />
+    <Content Include="images\animate\people-tech.png" />
+    <Content Include="images\animate\people-user.png" />
+    <Content Include="images\animate\products\p1.png" />
+    <Content Include="images\animate\products\p10.png" />
+    <Content Include="images\animate\products\p11.png" />
+    <Content Include="images\animate\products\p12.png" />
+    <Content Include="images\animate\products\p13.png" />
+    <Content Include="images\animate\products\p14.png" />
+    <Content Include="images\animate\products\p2.png" />
+    <Content Include="images\animate\products\p3.png" />
+    <Content Include="images\animate\products\p4.png" />
+    <Content Include="images\animate\products\p5.png" />
+    <Content Include="images\animate\products\p6.png" />
+    <Content Include="images\animate\products\p7.png" />
+    <Content Include="images\animate\products\p8.png" />
+    <Content Include="images\animate\products\p9.png" />
+    <Content Include="images\animate\products\_p1.png" />
+    <Content Include="images\animate\products\_p10.png" />
+    <Content Include="images\animate\products\_p12.png" />
+    <Content Include="images\animate\products\_p13.png" />
+    <Content Include="images\animate\products\_p14.png" />
+    <Content Include="images\animate\products\_p2.png" />
+    <Content Include="images\animate\products\_p3.png" />
+    <Content Include="images\animate\products\_p4.png" />
+    <Content Include="images\animate\products\_p5.png" />
+    <Content Include="images\animate\products\_p6.png" />
+    <Content Include="images\animate\products\_p8.png" />
+    <Content Include="images\animate\products\_p9.png" />
+    <Content Include="images\board-advisors.png" />
+    <Content Include="images\certificate\11.jpg" />
+    <Content Include="images\certificate\12.jpg" />
+    <Content Include="images\certificate\13.jpg" />
+    <Content Include="images\certificate\14.jpg" />
+    <Content Include="images\certificate\15.jpg" />
+    <Content Include="images\certificate\16.jpg" />
+    <Content Include="images\certificate\21.jpg" />
+    <Content Include="images\certificate\22.jpg" />
+    <Content Include="images\certificate\23.jpg" />
+    <Content Include="images\certificate\24.jpg" />
+    <Content Include="images\certificate\25.jpg" />
+    <Content Include="images\certificate\26.jpg" />
+    <Content Include="images\certificate\27.jpg" />
+    <Content Include="images\close.png" />
+    <Content Include="images\culture\1.jpg" />
+    <Content Include="images\culture\10.jpg" />
+    <Content Include="images\culture\11.jpg" />
+    <Content Include="images\culture\12.jpg" />
+    <Content Include="images\culture\13.jpg" />
+    <Content Include="images\culture\14.jpg" />
+    <Content Include="images\culture\15.jpg" />
+    <Content Include="images\culture\16.jpg" />
+    <Content Include="images\culture\17.jpg" />
+    <Content Include="images\culture\18.jpg" />
+    <Content Include="images\culture\19.jpg" />
+    <Content Include="images\culture\2.jpg" />
+    <Content Include="images\culture\20.jpg" />
+    <Content Include="images\culture\21.jpg" />
+    <Content Include="images\culture\22.jpg" />
+    <Content Include="images\culture\23.jpg" />
+    <Content Include="images\culture\24.jpg" />
+    <Content Include="images\culture\25.jpg" />
+    <Content Include="images\culture\26.jpg" />
+    <Content Include="images\culture\3.jpg" />
+    <Content Include="images\culture\4.jpg" />
+    <Content Include="images\culture\5.jpg" />
+    <Content Include="images\culture\6.jpg" />
+    <Content Include="images\culture\7.jpg" />
+    <Content Include="images\culture\8.jpg" />
+    <Content Include="images\culture\9.jpg" />
+    <Content Include="images\design\1.jpg" />
+    <Content Include="images\design\2.jpg" />
+    <Content Include="images\design\3.jpg" />
+    <Content Include="images\design\4.jpg" />
+    <Content Include="images\design\5.jpg" />
+    <Content Include="images\design\6.jpg" />
+    <Content Include="images\design\7.jpg" />
+    <Content Include="images\design\8.jpg" />
+    <Content Include="images\footer.png" />
+    <Content Include="images\header-bg.png" />
+    <Content Include="images\imgPlayer.png" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\next.png" />
+    <Content Include="images\overlay.png" />
+    <Content Include="images\people\1.jpg" />
+    <Content Include="images\people\2.jpg" />
+    <Content Include="images\people\3.jpg" />
+    <Content Include="images\people\4.jpg" />
+    <Content Include="images\people\5.jpg" />
+    <Content Include="images\people\6.jpg" />
+    <Content Include="images\prettyPhoto\facebook\btnNext.png" />
+    <Content Include="images\prettyPhoto\facebook\btnPrevious.png" />
+    <Content Include="images\prettyPhoto\facebook\contentPatternBottom.png" />
+    <Content Include="images\prettyPhoto\facebook\contentPatternLeft.png" />
+    <Content Include="images\prettyPhoto\facebook\contentPatternRight.png" />
+    <Content Include="images\prettyPhoto\facebook\contentPatternTop.png" />
+    <Content Include="images\prettyPhoto\facebook\default_thumbnail.gif" />
+    <Content Include="images\prettyPhoto\facebook\loader.gif" />
+    <Content Include="images\prettyPhoto\facebook\sprite.png" />
+    <Content Include="images\prev.png" />
+    <Content Include="images\products\1.png" />
+    <Content Include="images\products\2.png" />
+    <Content Include="images\products\3.png" />
+    <Content Include="images\products\4.png" />
+    <Content Include="images\products\5.png" />
+    <Content Include="images\products\6.png" />
+    <Content Include="images\titles\about.png" />
+    <Content Include="images\titles\blog.png" />
+    <Content Include="images\titles\circles.png" />
+    <Content Include="images\titles\jobs.png" />
+    <Content Include="images\titles\people.png" />
+    <Content Include="images\titles\product.png" />
+    <Content Include="js\app.js" />
+    <Content Include="js\jquery.imagepanner.js" />
+    <Content Include="js\jquery.imgpreload.js" />
+    <Content Include="js\jquery.jmFullWall.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.prettyPhoto.js" />
+    <Content Include="js\modernizr.js" />
+    <Content Include="js\plugins.js" />
+    <Content Include="css\prettyPhoto.css" />
+    <Content Include="js\slider.js" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="css\_dede.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fonts\alternategothicno2bt-regular-webfont.eot" />
+    <None Include="fonts\alternategothicno2bt-regular-webfont.ttf" />
+    <None Include="fonts\alternategothicno2bt-regular-webfont.woff" />
+    <None Include="fonts\light-webfont.eot" />
+    <None Include="fonts\light-webfont.ttf" />
+    <None Include="fonts\light-webfont.woff" />
+    <None Include="fonts\medium-webfont.eot" />
+    <None Include="fonts\medium-webfont.ttf" />
+    <None Include="fonts\medium-webfont.woff" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>7972</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
